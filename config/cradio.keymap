@@ -11,15 +11,6 @@
 
 / {
     behaviors {
-        sys_reset: reset_device {
-                compatible = "zmk,behavior-reset";
-                label = "Reset device";
-        };
-
-        bootloader: bootloader {
-                compatible = "zmk,behavior-bootloader";
-                label = "Bootloader";
-        };
         ht: hold_tap {
             label = "hold_tap";
             compatible = "zmk,behavior-hold-tap";
