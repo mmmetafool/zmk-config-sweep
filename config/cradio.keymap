@@ -11,7 +11,7 @@
 
 / {
     behaviors {
-        ys_reset: reset_device {
+        sys_reset: reset_device {
                 compatible = "zmk,behavior-reset";
                 label = "Reset device";
         };
